@@ -1,0 +1,38 @@
+# Created with WinGet Releaser using komac v2.17.2
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.28.0.schema.json
+
+PackageIdentifier: TonyD365.YTKTV
+PackageVersion: 3.2.0
+PackageLocale: en-US
+Publisher: TonyD365
+PublisherUrl: https://github.com/TonyD365
+PublisherSupportUrl: https://github.com/TonyD365/YTKTV/issues
+PackageName: YTKTV
+PackageUrl: https://tonyd365.github.io/YTKTV/
+License: YTKTV License (free to use, not for sale)
+LicenseUrl: https://github.com/TonyD365/YTKTV/blob/main/LICENSE
+ShortDescription: 'A karaoke (KTV) system: sing any YouTube video or your own files, with AI vocal removal, scoring and phone remotes.'
+Moniker: ytktv
+Tags:
+- karaoke
+- ktv
+- lyrics
+- singing
+- youtube
+ReleaseNotes: |-
+  What's new in 3.2.0
+  The TV and the phones now match the console's 3.0 look.
+  📺 MV screen
+  - Between songs, the TV shows the console's night sky, with the QR code in a glass panel with a glowing pink-to-cyan edge.
+  - The Now Playing / Up Next banner is a glossy pink-to-violet pill.
+  📱 Phone page
+  - The same night sky behind everything.
+  - Tabs with icons: search, queue, lists, remote and games, with the queue count on the mic.
+  - Big glossy tiles in the console's colours for playback, vocals, crowd sounds and moods.
+  📖 Docs
+  - The README tells why YTKTV was made.
+  ✅ Works with older versions
+  Only how things look has changed: rooms, the Desk and phones of any 3.x version work together, and nothing needs setting up again.
+ReleaseNotesUrl: https://github.com/TonyD365/YTKTV/releases/tag/v3.2.0
+ManifestType: defaultLocale
+ManifestVersion: 1.28.0
