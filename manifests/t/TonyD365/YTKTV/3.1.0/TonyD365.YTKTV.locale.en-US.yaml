@@ -1,0 +1,39 @@
+# Created with WinGet Releaser using komac v2.17.2
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.28.0.schema.json
+
+PackageIdentifier: TonyD365.YTKTV
+PackageVersion: 3.1.0
+PackageLocale: en-US
+Publisher: TonyD365
+PublisherUrl: https://github.com/TonyD365
+PublisherSupportUrl: https://github.com/TonyD365/YTKTV/issues
+PackageName: YTKTV
+PackageUrl: https://tonyd365.github.io/YTKTV/
+License: YTKTV License (free to use, not for sale)
+LicenseUrl: https://github.com/TonyD365/YTKTV/blob/main/LICENSE
+ShortDescription: 'A karaoke (KTV) system: sing any YouTube video or your own files, with AI vocal removal, scoring and phone remotes.'
+Moniker: ytktv
+Tags:
+- karaoke
+- ktv
+- lyrics
+- singing
+- youtube
+ReleaseNotes: |-
+  What's new in 3.1.0
+  🎤 YTKTV
+  - Background videos. Settings → Background Videos (off by default) plays music videos while nobody has chosen a song, like a KTV room before the first song. Play from your favorites and sung songs, or from one playlist. The first song anyone chooses takes over at once; background videos are not scored and not added to Sung.
+  - Confetti for a great song. A score of 90 or more, or the best of the night, bursts confetti over the MV behind the score card.
+  🛎 YTKTV Desk
+  - Tonight's best on the lobby screen. Rooms send their scores to the Desk, and the lobby screen shows the five best of the day with the singer and the song.
+  - A room's Admin Settings can turn background videos on or off.
+  🔧 Under the hood
+  - Pull requests run fewer macOS and Windows tests, so checks finish sooner; main still tests everything.
+  - The benchmark check measures again before calling something a slowdown.
+  ✅ Works with older versions
+  - A 3.1 room works with an older Desk, and an older room works with Desk 3.1; older rooms just do not send scores to the lobby board.
+  - The Desk's records are upgraded in place the first time it starts; nothing is lost.
+  - Background videos stay off until you turn them on.
+ReleaseNotesUrl: https://github.com/TonyD365/YTKTV/releases/tag/v3.1.0
+ManifestType: defaultLocale
+ManifestVersion: 1.28.0
